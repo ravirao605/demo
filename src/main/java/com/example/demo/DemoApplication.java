@@ -17,6 +17,9 @@ public class DemoApplication {
 	}
 
 
+	public static void doSomething() {
+		System.out.println("Did something!");
+	}
 	@Bean
 	CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
 		System.out.println("This is a new feature!");
