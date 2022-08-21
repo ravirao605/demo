@@ -20,6 +20,9 @@ public class DemoApplication {
 	public static void doSomething() {
 		System.out.println("Did something!");
 	}
+	public static void doSomethingElse() {
+		System.out.println("Did something else for feature 3.0!");
+	}
 	@Bean
 	CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
 		System.out.println("This is a new feature!");
