@@ -19,6 +19,7 @@ public class DemoApplication {
 
 	@Bean
 	CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
+		System.out.println("This is a new feature!");
 		return args -> {
 			Student maria = new Student(
 					"Maria",
