@@ -33,8 +33,8 @@ public class DemoApplication {
 					"ahmed.ali@amigoscode.edu",
 					18
 			);
-
-			System.out.println("Adding maria and ahmed");
+			// Bug fix
+			System.out.println("Adding maria and ahmed as List");
 			List<Student> students = new ArrayList<>();
 			students.add(maria);
 			students.add(ahmed);
