@@ -16,9 +16,12 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+	public static void feature4() {
+		System.out.println("Did something!");
+	}
 
 	public static void doSomething() {
-		System.out.println("Did something!");
+		System.out.println("Did something here!");
 	}
 	@Bean
 	CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
